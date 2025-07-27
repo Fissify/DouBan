@@ -1,4 +1,4 @@
-#%%
+# 加载版块
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -123,7 +123,7 @@ def crawl_all_sort_modes(movie_id, headers):
 
     return filename
 
-#%% 主程序入口
+#主程序入口
 if __name__ == '__main__':
     print("欢迎使用豆瓣电影评论爬虫（多排序版本）")
     movie_id = input('请输入电影id（如肖申克的救赎是1292052）: ').strip()
