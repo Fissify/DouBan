@@ -129,8 +129,8 @@ if __name__ == '__main__':
     movie_id = input('请输入电影id（如肖申克的救赎是1292052）: ').strip()
 
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-        'Cookie': 'll="118159"; bid=4taCNdUgy6I; _pk_id.100001.4cf6=c8cf06721613ce79.1729081190.; _vwo_uuid_v2=DB2A4125CA6B3A9112D7F033DE30CFCC5|41a70113f7014bfed2d8b02bfafa2831; __yadk_uid=aKQWPz16vDwWcMhMXQBp0FPMElPcL2rG; douban-fav-remind=1; _vwo_uuid_v2=D03ABCDE451A6525E747CA37160BDE5F4|396625d72921abc1448100548acc8df8; viewed="10352130_2074415_3006239_35609036_3654608_35921025_2325563_35389549_1454687_1468426"; _ga=GA1.1.249983752.1744892466; dbcl2="138179220:YhPtfNqSO7A"; push_noty_num=0; push_doumail_num=0; __utmv=30149280.13817; _ga_Y4GN1R87RG=GS1.1.1745381979.6.1.1745383615.0.0.0; ck=XJeA; ap_v=0,6.0; frodotk_db="41bfeda96714711ac53fc8fc353d534e"; __utma=30149280.1590796485.1727770166.1745376586.1745460793.11; __utmc=30149280; __utmz=30149280.1745460793.11.8.utmcsr=sogou.com|utmccn=(referral)|utmcmd=referral|utmcct=/link; __utmb=30149280.2.10.1745460793; __utma=223695111.249983752.1744892466.1745376586.1745460803.4; __utmb=223695111.0.10.1745460803; __utmc=223695111; __utmz=223695111.1745460803.4.3.utmcsr=douban.com|utmccn=(referral)|utmcmd=referral|utmcct=/; _pk_ref.100001.4cf6=%5B%22%22%2C%22%22%2C1745460803%2C%22https%3A%2F%2Fwww.douban.com%2F%22%5D; _pk_ses.100001.4cf6=1'
+        'User-Agent': ',
+        'Cookie':'
     }
 
     start_time = time.time()
